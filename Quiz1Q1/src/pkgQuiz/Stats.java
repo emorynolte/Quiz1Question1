@@ -55,7 +55,7 @@ public class Stats {
 	
 	public double onBasePercentage()
 	{	
-		return (((double) (H + BB)) / AB);	
+		return (((double) (H + BB)) / (AB + BB));	
 	}
 	
 	public double sluggingPercentage()
